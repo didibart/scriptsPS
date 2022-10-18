@@ -1,5 +1,5 @@
-﻿$files = Get-ChildItem "C:\RWS\UNDEC\*.docx"
-$ruta="C:\RWS\UNDEC\entrevistas\"
+﻿$files = Get-ChildItem "C:\RWS\UNLa\Lucia2022\words2022\*.docx"
+$ruta="C:\RWS\UNLa\Lucia2022\words2022\salida\"
 for ($i=0; $i -lt $files.Count; $i++)
 {
   $nomarch=$files[$i].BaseName
